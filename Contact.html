@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="index.html" class="w3-bar-item w3-button">Angel Yang</a>
+    <div class="w3-right">
+      <a href="index.html" class="w3-bar-item w3-button w3-hide-small">About</a>
+      <a href="Projects.html" class="w3-bar-item w3-button w3-hide-small">Projects</a>
+      <a href="Experience.html" class="w3-bar-item w3-button w3-hide-small">Experience</a>
+      <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small">Contact</a> 
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div id="responsive" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="index.html" class="w3-bar-item w3-button">About</a>
+      <a href="Projects.html" class="w3-bar-item w3-button">Projects</a>
+      <a href="Experience.html" class="w3-bar-item w3-button">Experience</a>
+      <a href="Contact.html" class="w3-bar-item w3-button">Contact</a> 
+    </div>
+  </div>
+</div> 
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("responsive");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+    <div>
+        <h1 class="w3-center w3-padding-64"> Contact </h1>
+        <p class="w3-center"><span class="material-icons">mail</span></p>
+    </div>
+    
+    <div>
+        <h4 class="w3-center w3-padding-64"> Let's connect! </h4>
+        <br>
+        <h5 class=w3-center> Email: ayang351@gatech.edu</h5>
+        <h5 class="w3-center"> Phone: (678) 841 - 2579 </h5>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+
+  <!-- End page content -->
+</div>
+<footer class="w3-center w3-light-grey w3-padding-32" style="letter-spacing: 4px;">
+    <a href="https://www.linkedin.com/in/angel-yang-799102220/" target="_blank"><img src="image /LI.png" height="30" width="30"></a>
+    &nbsp;
+    &nbsp;
+    &nbsp;
+    <a href="https://www.instagram.com/a.nhael_/?hl=en" target="_blank"><img src="image /Insta.png" height="30" width="30"></a> 
+  </footer>
+</html>
+</body>
