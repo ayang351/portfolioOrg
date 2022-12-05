@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="index.html" class="w3-bar-item w3-button">Angel Yang</a>
+    <div class="w3-right">
+      <a href="index.html" class="w3-bar-item w3-button w3-hide-small">About</a>
+      <a href="Projects.html" class="w3-bar-item w3-button w3-hide-small">Projects</a>
+      <a href="Experience.html" class="w3-bar-item w3-button w3-hide-small">Experience</a>
+      <a href="Contact.html" class="w3-bar-item w3-button w3-hide-small">Contact</a> 
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div id="responsive" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="index.html" class="w3-bar-item w3-button">About</a>
+      <a href="Projects.html" class="w3-bar-item w3-button">Projects</a>
+      <a href="Experience.html" class="w3-bar-item w3-button">Experience</a>
+      <a href="Contact.html" class="w3-bar-item w3-button">Contact</a> 
+    </div>
+  </div>
+</div> 
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("responsive");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+<div>
+    <h1 class="w3-center w3-padding-64"> Projects </h1>
+    <p class="w3-center"><span class="material-icons">folder</span></p>
+</div>
+ <!-- Project 1 -->
+ <div class="w3-row w3-padding-64">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Pocket Accountant</h1>
+      <h4 class="w3-center w3-text-dark-grey">UX Researcher and Designer </h4>
+      <p class="w3-text-grey"> 
+        Pocket Accountant is a bill estimation and accounting app designed for street vendors.
+        The app easily help users track their monthly bills through a bill-scanning feature 
+        that automatically adds and stores billing information and deadlines to help users 
+        make payments on time. In this all-in-one tool, bill payments can be made directly through 
+        the app by directly linking biller's payment portals during the payment process.
+      </p><br> 
+      <h6 class="w3-center w3-text-dark-grey"> tools </h6> 
+      <ul class="w3-text-dark-grey"> 
+        <li class="w3-text-dark-grey"> Figma </li>
+        <li class="w3-text-dark-grey"> Google Material io </li>
+      </ul>
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="image /PocketAccountantMockups.png" class="w3-round w3-image" alt="Project 1" style="width:100%">
+      <p class = "w3-center"> <a href="https://www.figma.com/proto/yswubsf7TgvHu6Sx4V8lpV/Bill-Estimation-App-For-Street-Vendors?page-id=167%3A11&node-id=167%3A12&viewport=393%2C327%2C0.26&scaling=scale-down&starting-point-node-id=167%3A12" target="_blank">View full prototype</a></p>
+    </div>
+  </div>
+    <hr>
+
+    <!-- Project 2 -->
+  <div class="w3-row w3-padding-64">
+    <div class="w3-col m6 w3-padding-large">
+     <img src="image /p2.png" class="w3-round w3-image" alt="Table Setting" width="600" height="750">
+     <p class = "w3-center"> <a href="https://xd.adobe.com/view/90f1577b-a3a5-40c3-980f-159359c7f3c4-c5a2/?fullscreen" target="_blank">view full prototype: desktop view </a></p>
+     <p class = "w3-center"> <a href="https://xd.adobe.com/view/16754650-c624-4092-990f-e529cb401f55-4326/?fullscreen" target="_blank">view full prototype: mobile view </a></p>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Yang & Pan Menu Website</h1> 
+      <h4 class="w3-center w3-text-dark-grey">UX Researcher and Designer</h4>
+      <p class="w3-text-grey">
+        Designed a responsive web design for a new local boba truck, Yang & Pan Boba and Snacks, that 
+        will be based in Atlanta, GA. Upon the request from the business owner, a custom logo was created
+        for the business along with a menu design that was handed off to an independent developer. The webpage 
+        consist of a homepage, a menu, bus schedule, and a contact page. The design highlights helpful 
+        features such as a live tracking that allows users to track the truck's location, a calendar view
+        of the truck's future schedule and location, and an organized menu with labeled allergen information 
+        and popular items. Both a desktop view and a mobile view is available. 
+        </p> <br>
+      <h6 class="w3-center w3-text-dark-grey"> tools </h6> 
+      <ul class="w3-text-dark-grey"> 
+        <li class="w3-text-dark-grey"> AdobeXD </li>
+        <li class="w3-text-dark-grey"> Google Material io </li>
+      </ul>
+    </div>
+    </div>
+    <hr>
+
+    <!-- Project 3 -->
+ <div class="w3-row w3-padding-64">
+  <div class="w3-col l6 w3-padding-large">
+    <h1 class="w3-center">Josef Albers VR representation</h1>
+    <h4 class="w3-center w3-text-dark-grey"> Project Developer </h4>
+    <p class="w3-text-grey"> 
+      this team project utilizes A-Frame to create an interactive 3D virtual reality representation of one of Josef Alber's 
+      geometric abstraction piece featured in his "from the Formulation : Articulation" portfolio (1972). The 3D scene features 
+      basic elements present in the original artwork: 2 sets of geometric shapes combined together with contrasting colors 
+      focused in front of a blue background, a hollow, grey rectangular frame encasing the two geometric shapes, and two 
+      rectangular blue panes divided symmetrically across the frame-shape scene.
+
+    </p><br> 
+    <h6 class="w3-center w3-text-dark-grey"> tools </h6> 
+    <ul class="w3-text-dark-grey"> 
+      <li class="w3-text-dark-grey"> A-Frame </li>
+      <li class="w3-text-dark-grey"> HTML </li>
+    </ul>
+  </div>
+  
+  <div class="w3-col l6 w3-padding-large">
+    <img src="image /p3.png" class="w3-round w3-image" alt="Project 3" style="width:100%">
+    <p class = "w3-center"> <a href="https://ayang351.github.io/AFrameProject/" target="_blank"> View Implementation </a></p>
+    <p class = "w3-center"> <a href="https://github.com/ayang351/AFrameProject" target="_blank"> View Source Code </a></p>
+  </div>
+</div>
+<hr>
+
+ <!-- Project 4 -->
+ <div class="w3-row w3-padding-64">
+  <div class="w3-col m6 w3-padding-large">
+   <img src="image /p4.png" class="w3-round w3-image" alt="Table Setting" width="600" height="750">
+   <p class = "w3-center"> <a href="https://github.com/ayang351/Twitterbot" target="_blank"> View Source Code </a></p>
+  </div>
+
+  <div class="w3-col m6 w3-padding-large">
+    <h1 class="w3-center"> GordonSeyRam Twitterbot</h1> 
+    <h4 class="w3-center w3-text-dark-grey">Project Developer</h4>
+    <p class="w3-text-grey">
+      Coded the follow back and reply functionality for the Twitterbot, @GordanSeyRam, that spoofs Gordon Ramsay by posting memes and famous Ramsay quotes and replying to @mentions with a rating 
+      and review. The Twitterbot aims at being interactive, by periodically retweeting content tagged with the hashtag #GordonRamsay, liking posts with various Ramsay-related 
+      hashtags, and following back any account that follows the bot or @mentions the bot in a tweet.
+      </p> <br>
+    <h6 class="w3-center w3-text-dark-grey"> tools </h6> 
+    <ul class="w3-text-dark-grey"> 
+      <li class="w3-text-dark-grey"> Twitter Developer API </li>
+      <li class="w3-text-dark-grey"> Node.js </li>
+    </ul>
+  </div>
+  </div>
+  <hr>
+   <!-- Project 5 -->
+ <div class="w3-row w3-padding-64">
+  <div class="w3-col l6 w3-padding-large">
+    <h1 class="w3-center">Apartment 404 game</h1>
+    <h4 class="w3-center w3-text-dark-grey"> writer and developer </h4>
+    <p class="w3-text-grey"> 
+      Developed the content and interactive elements for the text-based interactive horror-game, Apartment 404, using vanilla javascript. The game allows users to 
+      make a series of choices that will determine the route and story ending. In the design process, I created the story outline and prototype 
+      as well as coding the button functionalities for each scene.
+    </p><br> 
+    <h6 class="w3-center w3-text-dark-grey"> tools </h6> 
+    <ul class="w3-text-dark-grey"> 
+      <li class="w3-text-dark-grey"> Javascript </li>
+      <li class="w3-text-dark-grey"> HTML </li>
+      <li class="w3-text-dark-grey"> CSS </li>
+    </ul>
+  </div>
+  <div class="w3-col l6 w3-padding-large">
+    <img src="image /p5.png" class="w3-round w3-image" alt="Project 5" style="width:100%">
+    <p class = "w3-center"> <a href="https://ayang351.github.io/Apartment404Game/" target="_blank">View Full Game </a></p>
+    <p class = "w3-center"> <a href="https://github.com/ayang351/Apartment404Game" target="_blank">View Source Code </a></p>
+  </div>
+</div>
+
+  <!-- End page content -->
+</div>
+
+<footer class="w3-center w3-light-grey w3-padding-32" style="letter-spacing: 4px;">
+  <a href="https://www.linkedin.com/in/angel-yang-799102220/" target="_blank"><img src="image /LI.png" height="30" width="30"></a>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <a href="https://www.instagram.com/a.nhael_/?hl=en" target="_blank"><img src="image /Insta.png" height="30" width="30"></a> 
+</footer>
+
+
+</body>
+</html>
